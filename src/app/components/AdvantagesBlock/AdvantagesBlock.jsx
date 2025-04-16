@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import styles from "./AdvantagesBlock.module.css";
 
 export default function AdvantagesBlock() {
@@ -27,7 +29,13 @@ export default function AdvantagesBlock() {
 					</p>
 				</div>
 			</div>
-			<img className={styles["chill-guy"]} src="/images/chill-guy.png"></img>
+			<Image
+				className={styles["chill-guy"]}
+				src="/images/chill-guy.png"
+				alt=""
+				width={432}
+				height={432}
+			></Image>
 		</div>
 	);
 }

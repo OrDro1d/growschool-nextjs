@@ -5,10 +5,6 @@
   color: #333;
 }
 
-h2 {
-  font-family: "Poiret One";
-}
-
 .advantages-block {
   display: flex;
   justify-content: space-evenly;
@@ -52,9 +48,9 @@ h2 {
 }
 
 .chill-guy {
-  /* z-index: -1; */
   position: relative;
   right: 140px;
   bottom: 150px;
   width: 200px;
+  height: auto;
 }

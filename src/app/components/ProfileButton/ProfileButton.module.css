@@ -23,7 +23,8 @@
 }
 
 .profile-img {
-  width: 40px;
   border-radius: 30px;
   margin-left: 10px;
+  width: 40px;
+  height: auto;
 }

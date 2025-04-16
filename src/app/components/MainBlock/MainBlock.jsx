@@ -1,10 +1,11 @@
+import Image from "next/image";
 import MainButton from "../MainButton";
 import HelpButton from "../HelpButton";
 import styles from "./MainBlock.module.css";
 
 export default function MainBlock() {
 	return (
-		<main>
+		<main className={styles["main"]}>
 			<div className={styles["main-block"]}>
 				<div className={styles["main-block-text"]}>
 					<h1>Каждый день - новый шанс вырасти над собой</h1>
@@ -27,7 +28,7 @@ export default function MainBlock() {
 				</div>
 				<div className={styles["help-block-text"]}>
 					<h2>Если не знаете с чего начать</h2>
-					<img src="/images/look.png"></img>
+					<Image src="/images/look.png" alt="" width={343} height={233}></Image>
 				</div>
 				<div className={styles["help-block-btns"]}>
 					<HelpButton
@@ -40,10 +41,13 @@ export default function MainBlock() {
 					></HelpButton>
 				</div>
 			</div>
-			<img
+			<Image
 				className={styles["good-things-grow-here-img"]}
-				src="images/good-thing-grow-here.jpg"
-			></img>
+				src="/images/good-things-grow-here.jpg"
+				alt=""
+				width={736}
+				height={953}
+			></Image>
 		</main>
 	);
 }
