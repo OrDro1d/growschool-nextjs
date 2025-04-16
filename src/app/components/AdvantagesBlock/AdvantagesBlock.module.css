@@ -1,0 +1,60 @@
+.advantages-background {
+  font-family: "Teachers", sans-serif;
+  width: 1150px;
+  margin: 80px auto;
+  color: #333;
+}
+
+h2 {
+  font-family: "Poiret One";
+}
+
+.advantages-block {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid lightgray;
+  border-radius: 40px;
+  padding: 40px 40px 40px 40px;
+}
+
+.advantage {
+  border: 1px solid lightgray;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-position: bottom 5px right 5px;
+  background-size: 120px;
+  box-shadow: 5px 5px 10px lightgray;
+  width: 240px;
+  padding: 40px;
+}
+
+.advantage h3 {
+  font-family: "Poiret One";
+  font-size: 1rem;
+  margin: 0;
+}
+
+.advantage p {
+  font-size: 0.6rem;
+  width: 170px;
+}
+
+.quality {
+  background-image: url("/images/icons/25.png");
+}
+
+.security {
+  background-image: url("/images/icons/18.png");
+}
+
+.support {
+  background-image: url("/images/icons/15.png");
+}
+
+.chill-guy {
+  /* z-index: -1; */
+  position: relative;
+  right: 140px;
+  bottom: 150px;
+  width: 200px;
+}

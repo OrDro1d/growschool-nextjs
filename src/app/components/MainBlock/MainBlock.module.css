@@ -1,0 +1,62 @@
+.good-things-grow-here-img {
+  display: inline-block;
+  width: 500px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 80px;
+}
+
+.main-block-text {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #333;
+}
+
+.main-block-text h1 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 1rem;
+}
+
+.main-block-btns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(240, 248, 255);
+  border-radius: 40px;
+  height: 220px;
+  max-width: 600px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.help-block-text h2 {
+  display: inline-block;
+  font-family: "Poiret One", sans-serif;
+  font-size: 1rem;
+  color: #333;
+  margin-left: 80px;
+}
+
+.help-block-text img {
+  position: relative;
+  left: 70px;
+  top: 50px;
+  width: 150px;
+
+}
+
+.help-block-btns {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 40px;
+  height: 100px;
+  width: 600px;
+  margin: 10px;
+  padding: 20px;
+}

@@ -1,0 +1,35 @@
+.help-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Teachers', sans-serif;
+  font-size: 0.6rem;
+  color: #333;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  width: 200px;
+  padding: 10px 30px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px #DDD;
+}
+
+.help-btn:hover {
+  background-color: ghostwhite;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 0 #DDD;
+  transition: 0.2s;
+}
+
+.help-btn:active {
+  border: 1px solid rgb(175, 215, 255);
+  background-color: aliceblue;
+  box-shadow: 0 0 0 white;
+  transition: 0.1s;
+}
+
+.help-btn img {
+  margin-left: 20px;
+  width: 60px;
+}
