@@ -24,17 +24,6 @@
   padding: 40px;
 }
 
-.advantage h3 {
-  font-family: "Poiret One";
-  font-size: 1rem;
-  margin: 0;
-}
-
-.advantage p {
-  font-size: 0.6rem;
-  width: 170px;
-}
-
 .quality {
   background-image: url("/images/icons/25.png");
 }

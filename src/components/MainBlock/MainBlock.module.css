@@ -1,6 +1,7 @@
 .good-things-grow-here-img {
   display: inline-block;
   width: 500px;
+  height: auto;
 }
 
 .main {
