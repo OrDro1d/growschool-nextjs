@@ -1,4 +1,7 @@
 import Image from "next/image";
+
+import { poiretOne } from "@/app/layout";
+
 import MainButton from "../MainButton";
 import HelpButton from "../HelpButton";
 import styles from "./MainBlock.module.css";
@@ -8,7 +11,9 @@ export default function MainBlock() {
 		<main className={styles["main"]}>
 			<div className={styles["main-block"]}>
 				<div className={styles["main-block-text"]}>
-					<h1>Каждый день - новый шанс вырасти над собой</h1>
+					<h2 className={poiretOne.className}>
+						Каждый день - новый шанс вырасти над собой
+					</h2>
 					<p>И мы вам в этом поможем! Чему вы хотите научиться?</p>
 				</div>
 				<div className={styles["main-block-btns"]}>
@@ -27,7 +32,7 @@ export default function MainBlock() {
 					></MainButton>
 				</div>
 				<div className={styles["help-block-text"]}>
-					<h2>Если не знаете с чего начать</h2>
+					<h2 className={poiretOne.className}>Если не знаете с чего начать</h2>
 					<Image src="/images/look.png" alt="" width={343} height={233}></Image>
 				</div>
 				<div className={styles["help-block-btns"]}>

@@ -8,4 +8,25 @@
 
 .header nav {
   display: flex;
+  align-items: center;
+}
+
+.navbar-btn {
+  background-color: transparent;
+  border: transparent;
+  border-radius: 20px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 15px;
+}
+
+.navbar-btn:hover {
+  cursor: pointer;
+  background-color: ghostwhite;
+  transition: 0.3s;
+}
+
+.navbar-btn:active {
+  background-color: aliceblue;
 }

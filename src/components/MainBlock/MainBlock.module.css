@@ -8,18 +8,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #333;
   margin: 0 80px;
 }
 
 .main-block-text {
   text-align: center;
-  font-size: 0.7rem;
-  color: #333;
 }
 
-.main-block-text h1 {
-  font-family: "Poiret One", sans-serif;
-  font-size: 1rem;
+.main-block-text h2 {
+  font-weight: bold;
 }
 
 .main-block-btns {
@@ -36,8 +34,7 @@
 
 .help-block-text h2 {
   display: inline-block;
-  font-family: "Poiret One", sans-serif;
-  font-size: 1rem;
+  font-weight: bold;
   color: #333;
   margin-left: 80px;
 }

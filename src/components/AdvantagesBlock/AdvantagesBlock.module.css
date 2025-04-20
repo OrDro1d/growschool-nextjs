@@ -1,8 +1,11 @@
 .advantages-background {
-  font-family: "Teachers", sans-serif;
   width: 1150px;
   margin: 80px auto;
   color: #333;
+}
+
+.advantages-background h2 {
+  font-weight: bold;
 }
 
 .advantages-block {
@@ -22,6 +25,10 @@
   box-shadow: 5px 5px 10px lightgray;
   width: 240px;
   padding: 40px;
+}
+
+.advantage h3 {
+  font-weight: bold;
 }
 
 .quality {

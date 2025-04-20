@@ -1,6 +1,7 @@
+import Link from "next/link";
+
 import ProfileButton from "../ProfileButton";
 import Search from "../Search";
-import Button from "../Button";
 import Logo from "../Logo";
 import styles from "./Header.module.css";
 
@@ -10,8 +11,12 @@ export default function Header() {
 			<Logo></Logo>
 			<nav>
 				<Search></Search>
-				<Button>Мои курсы</Button>
-				<Button>Мой прогресс</Button>
+				<Link className={styles["navbar-btn"]} href="#">
+					Мои курсы
+				</Link>
+				<Link className={styles["navbar-btn"]} href="#">
+					Мой прогресс
+				</Link>
 				<ProfileButton>Войти</ProfileButton>
 			</nav>
 		</header>
