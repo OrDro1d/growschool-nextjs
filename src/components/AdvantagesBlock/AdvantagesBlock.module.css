@@ -1,52 +1,81 @@
 .advantages-background {
-  width: 1150px;
+  min-width: 200px;
+  max-width: 1000px;
   margin: 80px auto;
   color: #333;
 }
 
 .advantages-background h2 {
   font-weight: bold;
+  margin: 20px 60px;
 }
 
 .advantages-block {
-  display: flex;
-  justify-content: space-evenly;
   border: 1px solid lightgray;
   border-radius: 40px;
-  padding: 40px 40px 40px 40px;
+  padding: 40px 0;
+}
+
+.advantage-block {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  border-radius: 40px;
+  clip-path: inset(0);
+  margin: 30px;
+  margin-left: 200px;
+}
+
+.security-block.advantage-block {
+  margin-left: 30px;
+  margin-right: 200px;
 }
 
 .advantage {
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
   border-radius: 40px;
   background-repeat: no-repeat;
   background-position: bottom 5px right 5px;
   background-size: 120px;
-  box-shadow: 5px 5px 10px lightgray;
-  width: 240px;
-  padding: 40px;
+  box-shadow: -20px 0px 20px rgb(202, 230, 255);
+  width: 280px;
+  padding: 20px 40px;
+}
+
+.advantage:hover {
+  transition: 0.3s;
+  background-color: ghostwhite;
 }
 
 .advantage h3 {
   font-weight: bold;
+  margin: 0;
 }
 
-.quality {
-  background-image: url("/images/icons/25.png");
+.advantage p {
+  margin: 10px 0;
 }
 
-.security {
-  background-image: url("/images/icons/18.png");
+.security-block .advantage {
+  box-shadow: 20px 0px 20px rgb(202, 230, 255);
 }
 
-.support {
-  background-image: url("/images/icons/15.png");
+.advantage-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  opacity: 99%;
+  margin: auto auto;
 }
 
 .chill-guy {
   position: relative;
-  right: 140px;
-  bottom: 150px;
+  right: 10px;
+  bottom: 180px;
   width: 200px;
   height: auto;
 }

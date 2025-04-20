@@ -1,7 +1,8 @@
 .here-for-you-background {
   background-color: aliceblue;
+  min-width: 1000px;
   width: 100%;
-  margin: 100px 0;
+  margin: 160px 0;
   padding: 20px 0;
 }
 
@@ -11,7 +12,8 @@
   align-items: center;
   text-align: center;
   color: #333;
-  width: 1000px;
+  min-width: 800px;
+  width: 50vw;
   background-color: white;
   border-radius: 40px;
   margin: 0 auto;
@@ -23,13 +25,11 @@
   height: auto;
 }
 
-.here-for-you-block h2 {
-  font-family: "Poiret One", sans-serif;
+.here-for-you-block h1 {
+  font-weight: bold;
 }
 
 .here-for-you-block p {
-  font-family: "Teachers", sans-serif;
-  font-size: 0.8rem;
   width: 800px;
   margin: 0;
 }
