@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import MainBlock from "@/components/MainBlock";
 import HereForYouBlock from "@/components/HereForYouBlock";
 import AdvantagesBlock from "@/components/AdvantagesBlock";
+import Footer from "@/components/Footer";
 
 export default function App() {
 	return (
@@ -13,6 +14,7 @@ export default function App() {
 			<MainBlock></MainBlock>
 			<HereForYouBlock></HereForYouBlock>
 			<AdvantagesBlock></AdvantagesBlock>
+			<Footer></Footer>
 		</>
 	);
 }

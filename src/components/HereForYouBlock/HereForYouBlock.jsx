@@ -9,7 +9,7 @@ export default function HereForYouBlock() {
 		<div className={styles["here-for-you-background"]}>
 			<div className={styles["here-for-you-block"]}>
 				<Image
-					src="/images/here-for-you.png"
+					src="/images/here-for-you.jpg"
 					alt=""
 					width={1004}
 					height={635}

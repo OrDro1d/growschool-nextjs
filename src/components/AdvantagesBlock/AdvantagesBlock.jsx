@@ -66,7 +66,7 @@ export default function AdvantagesBlock() {
 			</div>
 			<Image
 				className={styles["chill-guy"]}
-				src="/images/chill-guy.png"
+				src="/images/chill-guy.jpg"
 				alt=""
 				width={432}
 				height={432}

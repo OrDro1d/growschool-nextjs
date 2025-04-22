@@ -1,13 +1,15 @@
 .logo-block {
-  margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .logo-img {
-  margin: 10px 10px 0 15px;
+  margin: 0 5px 10px 0;
   width: 20px;
   height: auto;
 }
 
 .logo-name {
   display: inline-block;
+  margin: 0;
 }

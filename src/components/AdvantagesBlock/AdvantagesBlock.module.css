@@ -1,12 +1,13 @@
 .advantages-background {
   min-width: 200px;
   max-width: 1000px;
-  margin: 80px auto;
-  color: #333;
+  margin: 80px auto 0px auto;
+  color: #666;
 }
 
 .advantages-background h2 {
   font-weight: bold;
+  color: #333;
   margin: 20px 60px;
 }
 
@@ -20,6 +21,7 @@
   display: flex;
   justify-content: space-between;
   background-color: aliceblue;
+  border: 2px solid aliceblue;
   border-radius: 40px;
   clip-path: inset(0);
   margin: 30px;
@@ -32,7 +34,6 @@
 }
 
 .advantage {
-  /* border: 1px solid lightgray; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +54,7 @@
 
 .advantage h3 {
   font-weight: bold;
+  color: #333;
   margin: 0;
 }
 

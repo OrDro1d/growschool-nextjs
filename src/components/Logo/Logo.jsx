@@ -7,7 +7,7 @@ export default function Logo() {
 		<div className={styles["logo-block"]}>
 			<Image
 				className={styles["logo-img"]}
-				src="/images/logo.png"
+				src="/images/favicon.ico"
 				alt="Logo image"
 				width={3350}
 				height={4200}
