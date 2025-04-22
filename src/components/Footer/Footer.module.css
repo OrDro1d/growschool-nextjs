@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: end;
   background-color: #eee;
+  color: #333;
   box-shadow: 10px 10px 10px #ddd;
   border-radius: 40px 40px 0 0;
   height: 800px;
@@ -40,6 +41,7 @@
 
 .footer-block-info {
   background-color: white;
+  color: #333;
   border-radius: 40px;
   margin: 10px 40px;
   padding: 40px;
