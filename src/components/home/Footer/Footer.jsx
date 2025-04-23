@@ -32,7 +32,7 @@ export default function Footer() {
 					</h2>
 				</div>
 				<div className={styles["footer-block-info"]}>
-					<Logo className={styles["logo"]}></Logo>
+					<Logo></Logo>
 					<p>
 						Предоставляем открытую платформу <br></br>качественного образования
 						для работы и жизни

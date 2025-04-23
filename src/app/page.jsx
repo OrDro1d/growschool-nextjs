@@ -7,7 +7,7 @@ import HereForYouBlock from "@/components/home/HereForYouBlock";
 import AdvantagesBlock from "@/components/home/AdvantagesBlock";
 import Footer from "@/components/home/Footer";
 
-export default function App() {
+export default function Home() {
 	return (
 		<>
 			<Header></Header>

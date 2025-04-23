@@ -1,0 +1,82 @@
+.register-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  box-shadow: -10px 0px 20px #ddd;
+  color: #666;
+  width: 440px;
+  padding: 40px;
+}
+
+.register-block h1 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #333;
+  margin: 50px;
+}
+
+.register-block form * {
+  display: block;
+  margin: auto;
+}
+
+.register-block form div {
+  width: fit-content;
+  margin: 20px;
+}
+
+.register-block input {
+  border-radius: 30px;
+  border: 2px solid rgb(202, 230, 255);
+  color: #333;
+  outline: none;
+  width: 300px;
+  padding: 10px 20px;
+}
+
+.register-block input:focus {
+  border: 2px solid rgb(100, 183, 255);
+  transition: ease-in-out 0.1s;
+}
+
+.register-block input::placeholder {
+  color: #bbb;
+}
+
+.register-block label {
+  display: inline-block;
+  margin: 0 0 5px 20px;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+  height: 40px;
+}
+
+.register-btn {
+  font-size: 1rem;
+  border-radius: 30px;
+  background-color: rgb(202, 230, 255);
+  border: 2px solid rgb(202, 230, 255);
+  color: #333;
+  outline: none;
+  width: 340px;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+.register-btn:hover {
+  background-color: rgb(202, 230, 255);
+  border: 2px solid rgb(150, 206, 255);
+  box-shadow: 0 0 5px rgb(202, 230, 255);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-btn:active {
+  box-shadow: 0;
+  background-color: rgb(173, 217, 255);
+}

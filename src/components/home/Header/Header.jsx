@@ -9,7 +9,7 @@ import styles from "./Header.module.css";
 export default function Header() {
 	return (
 		<header className={styles["header"]}>
-			<Logo className={styles["logo"]}></Logo>
+			<Logo></Logo>
 			<nav>
 				<Search></Search>
 				<Link className={styles["navbar-btn"]} href="#">
