@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import { poiretOne } from "@/app/layout";
 
-import MainButton from "../MainButton";
-import HelpButton from "../HelpButton";
+import MainButton from "../../home/MainButton";
+import HelpButton from "../../home/HelpButton";
 import styles from "./MainBlock.module.css";
 
 export default function MainBlock() {

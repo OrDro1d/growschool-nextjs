@@ -5,7 +5,7 @@ import { poiretOne } from "@/app/layout";
 
 import styles from "./Footer.module.css";
 
-import Logo from "../Logo";
+import Logo from "../../others/Logo";
 
 export default function Footer() {
 	return (

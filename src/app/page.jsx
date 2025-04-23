@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import Header from "@/components/Header";
-import MainBlock from "@/components/MainBlock";
-import HereForYouBlock from "@/components/HereForYouBlock";
-import AdvantagesBlock from "@/components/AdvantagesBlock";
-import Footer from "@/components/Footer";
+import Header from "@/components/home/Header";
+import MainBlock from "@/components/home/MainBlock";
+import HereForYouBlock from "@/components/home/HereForYouBlock";
+import AdvantagesBlock from "@/components/home/AdvantagesBlock";
+import Footer from "@/components/home/Footer";
 
 export default function App() {
 	return (

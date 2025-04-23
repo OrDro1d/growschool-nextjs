@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-import ProfileButton from "../ProfileButton";
-import Search from "../Search";
-import Logo from "../Logo";
+import ProfileButton from "../../others/ProfileButton";
+import Search from "../../home/Search";
+import Logo from "../../others/Logo";
 
 import styles from "./Header.module.css";
 

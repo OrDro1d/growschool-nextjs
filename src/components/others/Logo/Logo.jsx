@@ -12,7 +12,7 @@ export default function Logo() {
 				width={3350}
 				height={4200}
 			/>
-			<p className={styles["logo-name"]}>Grow School</p>
+			<span className={styles["logo-name"]}>Grow School</span>
 		</div>
 	);
 }
