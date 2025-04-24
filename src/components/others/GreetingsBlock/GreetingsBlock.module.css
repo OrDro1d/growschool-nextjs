@@ -6,11 +6,12 @@
 }
 
 .greetings-block {
+  flex-grow: 1;
   background-color: white;
   border-radius: 80px;
-  width: max(70%, 400px);
-  padding: 80px;
-  margin: auto;
+  width: max(70%, 500px);
+  padding: 140px 80px;
+  margin: 80px 20px;
 }
 
 .greetings-block h1 {
@@ -20,4 +21,9 @@
 
 .greetings-block p {
   color: #666;
+}
+
+.greetings-block img {
+  width: 300px;
+  height: auto;
 }

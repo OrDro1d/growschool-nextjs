@@ -18,7 +18,7 @@
   justify-content: end;
   background-color: #eee;
   color: #333;
-  box-shadow: 10px 10px 10px #ddd;
+  /* box-shadow: 10px 10px 10px #ddd; */
   border-radius: 40px 40px 0 0;
   height: 800px;
   width: 600px;

@@ -5,7 +5,7 @@ import bcrypt from "bcryptjs";
 
 export async function POST(request) {
 	await dbConnect();
-	const { name, email, password } = await request.json();
+	const { name, email, password, confirmPassword } = await request.json();
 
 	if (!name || !email || !password) {
 		return new Response(
@@ -15,6 +15,12 @@ export async function POST(request) {
 	}
 
 	try {
+		if (password != confirmPassword) {
+			return new Response(JSON.stringify({ error: "Пароли не совпадают" }), {
+				status: 400
+			});
+		}
+
 		const existingUser = await User.findOne({ email });
 		if (existingUser) {
 			return new Response(
