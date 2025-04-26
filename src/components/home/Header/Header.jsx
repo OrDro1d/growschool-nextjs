@@ -18,7 +18,7 @@ export default function Header() {
 				<Link className={styles["navbar-btn"]} href="#">
 					Мой прогресс
 				</Link>
-				<ProfileButton>Войти</ProfileButton>
+				<ProfileButton></ProfileButton>
 			</nav>
 		</header>
 	);

@@ -1,4 +1,7 @@
 import Link from "next/link";
+
+import { AuthProvider } from "../contexts/AuthContext";
+
 import "./globals.css";
 
 export const metadata = {
@@ -16,7 +19,9 @@ export const teachers = Teachers({ weight: "400" });
 export default function RootLayout({ children }) {
 	return (
 		<html lang="ru">
-			<body className={teachers.className}>{children}</body>
+			<AuthProvider>
+				<body className={teachers.className}>{children}</body>
+			</AuthProvider>
 		</html>
 	);
 }

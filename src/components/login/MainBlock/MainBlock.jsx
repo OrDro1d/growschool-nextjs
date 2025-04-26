@@ -10,8 +10,10 @@ const poiretOne = Poiret_One({ weight: "400" });
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useAuth } from "../../../contexts/AuthContext";
 
 export default function MainBlock() {
+	const { login } = useAuth();
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 	const [error, setError] = useState("");
@@ -31,12 +33,14 @@ export default function MainBlock() {
 			const data = await res.json();
 			if (res.ok) {
 				localStorage.setItem("token", data.token);
+				login();
 				router.push("/");
 			} else {
 				setError(data.error);
 			}
 		} catch (err) {
 			setError("Что-то пошло не так. Попробуйте ещё раз.");
+			console.log(err.message);
 		}
 	};
 
