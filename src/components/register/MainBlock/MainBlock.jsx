@@ -80,7 +80,7 @@ export default function MainBlock() {
 					<label>Подтверждение пароля</label>
 					<br></br>
 					<input
-						type="confirmPassword"
+						type="password"
 						value={confirmPassword}
 						placeholder="Повторите ваш пароль"
 						onChange={(e) => setConfirmPassword(e.target.value)}
