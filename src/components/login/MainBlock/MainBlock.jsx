@@ -4,8 +4,6 @@ import Link from "next/link";
 
 import styles from "./MainBlock.module.css";
 
-import { poiretOne } from "@/app/layout";
-
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "../../../contexts/AuthContext";
@@ -44,7 +42,7 @@ export default function MainBlock() {
 
 	return (
 		<main className={styles["register-block"]}>
-			<h1 className={poiretOne.className}>Вход</h1>
+			<h1>Вход</h1>
 			<form onSubmit={handleSubmit}>
 				<div className={styles["email-block"]}>
 					<label>Email</label>

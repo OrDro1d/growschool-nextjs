@@ -2,8 +2,6 @@
 
 import styles from "./MainBlock.module.css";
 
-import { poiretOne } from "@/app/layout";
-
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -39,7 +37,7 @@ export default function MainBlock() {
 
 	return (
 		<main className={styles["register-block"]}>
-			<h1 className={poiretOne.className}>Регистрация</h1>
+			<h1>Регистрация</h1>
 			<form onSubmit={handleSubmit}>
 				<div className={styles["name-block"]}>
 					<label>Имя</label>
