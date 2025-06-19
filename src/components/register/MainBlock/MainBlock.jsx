@@ -2,9 +2,7 @@
 
 import styles from "./MainBlock.module.css";
 
-import { Poiret_One } from "next/font/google";
-
-const poiretOne = Poiret_One({ weight: "400" });
+import { poiretOne } from "@/app/layout";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
