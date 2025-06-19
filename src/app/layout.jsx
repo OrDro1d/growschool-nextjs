@@ -13,8 +13,14 @@ export const metadata = {
 
 import { Teachers, Poiret_One } from "next/font/google";
 
-export const poiretOne = Poiret_One({ weight: "400" });
-export const teachers = Teachers({ weight: "400" });
+export const poiretOne = Poiret_One({
+	weight: "400",
+	subsets: ["cyrillic", "latin"]
+});
+export const teachers = Teachers({
+	weight: "400",
+	subsets: ["cyrillic", "latin"]
+});
 
 export default function RootLayout({ children }) {
 	return (
