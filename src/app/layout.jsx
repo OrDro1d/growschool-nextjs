@@ -20,7 +20,7 @@ export const poiretOne = Poiret_One({
 });
 export const teachers = Teachers({
 	weight: "400",
-	subsets: "latin"
+	subsets: ["latin"]
 });
 
 export default function RootLayout({ children }) {
